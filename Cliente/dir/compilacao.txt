@@ -1,0 +1,11 @@
+Como foi compilado:
+
+1° Todos os arquivos .java do projeto foram colocados em outra pasta separada
+
+2° Foram removido todos os imports relacionados a pacotes de cada arquivo .java
+
+3° Executado o comando javac *.java para tranformar todos .java em .class (bytecode)
+
+4° Recriado o arquivo de manifets para definir a classe principal (Main-Class: Main)
+
+5° Executado o comando jar cvmf MANIFEST.MF arquivo.jar *.class -C images .
